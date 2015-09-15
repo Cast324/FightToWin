@@ -2,9 +2,9 @@ Mono path[0] = 'D:/Fighting Game/OfficialGameFolder/FightToWin/FightToWin_Data/M
 Mono path[1] = 'D:/Fighting Game/OfficialGameFolder/FightToWin/FightToWin_Data/Mono'
 Mono config path = 'D:/Fighting Game/OfficialGameFolder/FightToWin/FightToWin_Data/Mono/etc'
 PlayerConnection initialized from D:/Fighting Game/OfficialGameFolder/FightToWin/FightToWin_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55312
-Multi-casting "[IP] 192.168.1.7 [Port] 55312 [Flags] 2 [Guid] 1748104973 [EditorId] 859761522 [Version] 1048832 [Id] WindowsPlayer(David) [Debug] 0" to [225.0.0.222:54997]...
-PlayerConnection already initialized - listening to [192.168.1.7:55312]
+PlayerConnection initialized network socket : 0.0.0.0 55467
+Multi-casting "[IP] 192.168.1.7 [Port] 55467 [Flags] 2 [Guid] 2093400068 [EditorId] 2118520822 [Version] 1048832 [Id] WindowsPlayer(David) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.1.7:55467]
 Initialize engine version: 5.1.3f1 (b0a23b31c3d8)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -15,6 +15,10 @@ Direct3D:
 Begin MonoManager ReloadAssembly
 Platform assembly: D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\UnityEngine.dll (this message is harmless)
 Loading D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
 Platform assembly: D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
@@ -22,9 +26,17 @@ Loading D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\U
 Platform assembly: D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.103 seconds
+- Completed reload, in  0.115 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initialized touch support.
 Platform assembly: D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\System.dll (this message is harmless)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.638311 ms
+System memory in use before: 11.4 MB.
+System memory in use after: 11.5 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 207.
+Total: 0.205668 ms (FindLiveObjects: 0.013026 ms CreateObjectMapping: 0.010658 ms MarkObjects: 0.172113 ms  DeleteObjects: 0.009474 ms)
+
