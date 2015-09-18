@@ -2,9 +2,9 @@ Mono path[0] = 'D:/Fighting Game/OfficialGameFolder/FightToWin/FightToWin_Data/M
 Mono path[1] = 'D:/Fighting Game/OfficialGameFolder/FightToWin/FightToWin_Data/Mono'
 Mono config path = 'D:/Fighting Game/OfficialGameFolder/FightToWin/FightToWin_Data/Mono/etc'
 PlayerConnection initialized from D:/Fighting Game/OfficialGameFolder/FightToWin/FightToWin_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55467
-Multi-casting "[IP] 192.168.1.7 [Port] 55467 [Flags] 2 [Guid] 2093400068 [EditorId] 2118520822 [Version] 1048832 [Id] WindowsPlayer(David) [Debug] 0" to [225.0.0.222:54997]...
-PlayerConnection already initialized - listening to [192.168.1.7:55467]
+PlayerConnection initialized network socket : 0.0.0.0 55465
+Multi-casting "[IP] 192.168.1.7 [Port] 55465 [Flags] 2 [Guid] 4023518993 [EditorId] 1798960736 [Version] 1048832 [Id] WindowsPlayer(David) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.1.7:55465]
 Initialize engine version: 5.1.3f1 (b0a23b31c3d8)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -17,8 +17,6 @@ Platform assembly: D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Dat
 Loading D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
-Loading D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
 Platform assembly: D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
@@ -26,17 +24,25 @@ Loading D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\U
 Platform assembly: D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.115 seconds
+- Completed reload, in  0.106 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initialized touch support.
 Platform assembly: D:\Fighting Game\OfficialGameFolder\FightToWin\FightToWin_Data\Managed\System.dll (this message is harmless)
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 5.638311 ms
+UnloadTime: 4.599706 ms
 System memory in use before: 11.4 MB.
 System memory in use after: 11.5 MB.
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 207.
-Total: 0.205668 ms (FindLiveObjects: 0.013026 ms CreateObjectMapping: 0.010658 ms MarkObjects: 0.172113 ms  DeleteObjects: 0.009474 ms)
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 273.
+Total: 0.313436 ms (FindLiveObjects: 0.020922 ms CreateObjectMapping: 0.011447 ms MarkObjects: 0.274750 ms  DeleteObjects: 0.005131 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.677797 ms
+System memory in use before: 13.6 MB.
+System memory in use after: 13.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 179.
+Total: 0.309094 ms (FindLiveObjects: 0.022895 ms CreateObjectMapping: 0.008684 ms MarkObjects: 0.241196 ms  DeleteObjects: 0.033949 ms)
 
