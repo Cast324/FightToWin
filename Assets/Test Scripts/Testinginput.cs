@@ -18,7 +18,7 @@ public class Testinginput : MonoBehaviour {
 		{
 			Debug.Log("A Button");
 		}
-		if (Input.GetAxisRaw ("360_AButton2")) 
+		if (Input.GetButtonDown("360_AButton2")) 
 		{
 			Debug.Log("A Button2");
 		}
