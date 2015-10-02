@@ -3,7 +3,8 @@ using System.Collections;
 
 public class AJUMPFORDEVITO : MonoBehaviour {
 	public float jumpHeight;
-	public static float moveSpeed;
+	public static float moveSpeed = 0f;
+	public static float speed = .9f;
 	public float moveValue;
 	// Use this for initialization
 	void Start () {
@@ -13,7 +14,7 @@ public class AJUMPFORDEVITO : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		UserInputs ();
-		moveValue = Input.GetAxis("360_LeftHorizontal") * moveSpeed;	
+		moveValue = Input.GetAxis("360_LeftHorizontal") * moveSpeed * speed;	
 	}
 	void UserInputs() {
 		if (Input.GetButtonDown ("360_AButton")) {
