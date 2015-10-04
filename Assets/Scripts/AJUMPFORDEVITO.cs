@@ -16,7 +16,7 @@ public class AJUMPFORDEVITO : MonoBehaviour {
 	public static float moveSpeed = 0f;
 
 	// Used to set overall speed
-	public static float speed = .9f;
+	public float speed = .9f;
 
 	// Final Speed Value
 	public float moveValue;
