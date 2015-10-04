@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\AJUMPFORDEVITO.cs" />
      <Compile Include="Assets\Scripts\ButtonNextLevel.cs" />
      <Compile Include="Assets\Scripts\GroundTouch.cs" />
+     <Compile Include="Assets\Scripts\HitZone.cs" />
      <Compile Include="Assets\Scripts\SpeedLimit.cs" />
      <Compile Include="Assets\Test Scripts\Testinginput.cs" />
  <Reference Include="UnityEngine.UI">
