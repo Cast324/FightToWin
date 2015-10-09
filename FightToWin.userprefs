@@ -1,13 +1,7 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MoveDestination.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Test Scripts\Testinginput.cs">
     <Files>
-      <File FileName="Assets\Scripts\MoveDestination.cs" Line="11" Column="43" />
-      <File FileName="Assets\Scripts\AJUMPFORDEVITO.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\HitZone.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SpeedLimit.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GroundTouch.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ButtonNextLevel.cs" Line="1" Column="1" />
       <File FileName="Assets\Test Scripts\Testinginput.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

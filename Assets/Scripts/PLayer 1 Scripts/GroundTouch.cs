@@ -53,10 +53,10 @@ public class GroundTouch : MonoBehaviour {
 		// If you have stopped moving vertically because you landed, set jumps back to zero
 		if (totalVerticalSpeed == 0) {
 			NumberofJumps = 0;
+			//Set Jumpheight for being on the ground
+			AJUMPFORDEVITO.jumpHeight = groundjumpHeight;
 		}
 
-		//Set Jumpheight for being on the ground
-		AJUMPFORDEVITO.jumpHeight = groundjumpHeight;
 
 		//Makes you move at a normal speed on ground
 		AJUMPFORDEVITO.moveSpeed = groundSpeed;
