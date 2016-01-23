@@ -18,11 +18,13 @@ public class HitZone : MonoBehaviour {
 		
 	}
 	void OnTriggerStay2D(Collider2D other){
+		var angle = Mathf.Atan2(Input.GetAxis("360_RightHorizontal"), Input.GetAxis("360_RightVertical")) * Mathf.Rad2Deg - 90;
 
 		if (other.tag == "MoveableObject") {
 			Debug.Log ("INTHEPUNCHZONE");
 			if (punchIt == true){
-			other.GetComponent<Rigidbody2D>().AddForce(Vector2.right * 2000);
+				Vector3 dir = Quaternion.AngleAxis(angle, Vector3.forward) * Vector2.right;
+				other.GetComponent<Rigidbody2D>().AddForce(dir * 2000);
 				Debug.Log ("WEW");
 			}
 			}
